@@ -1,0 +1,286 @@
+[gd_scene load_steps=67 format=3 uid="uid://dqgjix3y1crxi"]
+
+[ext_resource type="Script" uid="uid://b6c34hcx6l32x" path="res://player.gd" id="1_efrwb"]
+[ext_resource type="Texture2D" uid="uid://e44aa50nrf70" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/1.png" id="2_hiqhm"]
+[ext_resource type="Texture2D" uid="uid://cikvkc35dio3w" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/2.png" id="3_tkwlq"]
+[ext_resource type="Texture2D" uid="uid://cvn4ikqu7jn7i" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/3.png" id="4_hl5qd"]
+[ext_resource type="Texture2D" uid="uid://delteiufvcqm2" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/4.png" id="5_ek41f"]
+[ext_resource type="Texture2D" uid="uid://csbismbjxh3px" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/5.png" id="6_khis8"]
+[ext_resource type="Texture2D" uid="uid://0vmonrbbeqtl" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/6.png" id="7_b88wv"]
+[ext_resource type="Texture2D" uid="uid://c5n8vo0tbq1d" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/7.png" id="8_pgbbb"]
+[ext_resource type="Texture2D" uid="uid://bke8xthc66hte" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/9.png" id="9_331ug"]
+[ext_resource type="Texture2D" uid="uid://dx4ao6y6islr4" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/10.png" id="10_ny14h"]
+[ext_resource type="Texture2D" uid="uid://d0upghqwa8rxx" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/11.png" id="11_ibah8"]
+[ext_resource type="Texture2D" uid="uid://d34bbgahgwqwi" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/12.png" id="12_3iwfv"]
+[ext_resource type="Texture2D" uid="uid://c1u5gy25o01ku" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/13.png" id="13_qwsg1"]
+[ext_resource type="Texture2D" uid="uid://bvteh5h73v4cv" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/14.png" id="14_1xqrm"]
+[ext_resource type="Texture2D" uid="uid://b2xtm26x2cdu3" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/15.png" id="15_bfour"]
+[ext_resource type="Texture2D" uid="uid://bs2tsr05fa7l6" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/16.png" id="16_8gr2b"]
+[ext_resource type="Texture2D" uid="uid://dfg6oomigvi4m" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/17.png" id="17_vl8ci"]
+[ext_resource type="Texture2D" uid="uid://2is0nrft6331" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/18.png" id="18_ieltc"]
+[ext_resource type="Texture2D" uid="uid://bunauuarrn02t" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/19.png" id="19_fddr8"]
+[ext_resource type="Texture2D" uid="uid://x30wru7w8xep" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/20.png" id="20_oybyf"]
+[ext_resource type="Texture2D" uid="uid://dtvqp0csvxdvr" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/21.png" id="21_ajfva"]
+[ext_resource type="Texture2D" uid="uid://ckqe7u4nxm6wx" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/22.png" id="22_5ef02"]
+[ext_resource type="Texture2D" uid="uid://cb3vc4ehu2yk" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/23.png" id="23_pfmca"]
+[ext_resource type="Texture2D" uid="uid://dbby7wi3sdhpd" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/24.png" id="24_76oay"]
+[ext_resource type="Texture2D" uid="uid://7c2ro1bojqct" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/25.png" id="25_b4uyv"]
+[ext_resource type="Texture2D" uid="uid://cmjaws7tf25rj" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/26.png" id="26_tw8ou"]
+[ext_resource type="Texture2D" uid="uid://cgsj5p0igyfiq" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/27.png" id="27_ygbnx"]
+[ext_resource type="Texture2D" uid="uid://yuu2kwmuer" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/28.png" id="28_v2t6f"]
+[ext_resource type="Texture2D" uid="uid://dm0jl3qjljaua" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/29.png" id="29_l3lcn"]
+[ext_resource type="Texture2D" uid="uid://cps707pknlpwb" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/30.png" id="30_xry5e"]
+[ext_resource type="Texture2D" uid="uid://bv7y4aqndphpa" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/31.png" id="31_h6w8y"]
+[ext_resource type="Texture2D" uid="uid://cc7khe3i6cji3" path="res://piratas/Sprites/5-Enemy-Captain/1-Idle/32.png" id="32_yem3p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_86rna"]
+atlas = ExtResource("2_hiqhm")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xg1a7"]
+atlas = ExtResource("3_tkwlq")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ob4mi"]
+atlas = ExtResource("5_ek41f")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ax26h"]
+atlas = ExtResource("6_khis8")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kh4g0"]
+atlas = ExtResource("7_b88wv")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mgmjd"]
+atlas = ExtResource("7_b88wv")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_va2xi"]
+atlas = ExtResource("8_pgbbb")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkf2u"]
+atlas = ExtResource("9_331ug")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7jk6"]
+atlas = ExtResource("10_ny14h")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_feeoa"]
+atlas = ExtResource("11_ibah8")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m6nxt"]
+atlas = ExtResource("11_ibah8")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ym00c"]
+atlas = ExtResource("12_3iwfv")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ee2o4"]
+atlas = ExtResource("13_qwsg1")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vie4p"]
+atlas = ExtResource("14_1xqrm")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0jj5r"]
+atlas = ExtResource("15_bfour")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_77e46"]
+atlas = ExtResource("16_8gr2b")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cy2ki"]
+atlas = ExtResource("17_vl8ci")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_04cqw"]
+atlas = ExtResource("18_ieltc")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vihdy"]
+atlas = ExtResource("19_fddr8")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7c55y"]
+atlas = ExtResource("20_oybyf")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hoal8"]
+atlas = ExtResource("21_ajfva")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_htija"]
+atlas = ExtResource("22_5ef02")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_he65s"]
+atlas = ExtResource("23_pfmca")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c0yt3"]
+atlas = ExtResource("24_76oay")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uckl6"]
+atlas = ExtResource("25_b4uyv")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ihbc"]
+atlas = ExtResource("26_tw8ou")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sc53x"]
+atlas = ExtResource("27_ygbnx")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ro7of"]
+atlas = ExtResource("28_v2t6f")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dn2kn"]
+atlas = ExtResource("29_l3lcn")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4tmhn"]
+atlas = ExtResource("30_xry5e")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gpvxe"]
+atlas = ExtResource("31_h6w8y")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qicb8"]
+atlas = ExtResource("32_yem3p")
+region = Rect2(0, 0, 80, 72)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6o2m3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_86rna")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xg1a7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_hl5qd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ob4mi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ax26h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kh4g0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mgmjd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_va2xi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkf2u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s7jk6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_feeoa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m6nxt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ym00c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ee2o4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vie4p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0jj5r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_77e46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cy2ki")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_04cqw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vihdy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7c55y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hoal8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_htija")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_he65s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c0yt3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uckl6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ihbc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sc53x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ro7of")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dn2kn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4tmhn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gpvxe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qicb8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 20.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2hmo1"]
+radius = 22.0
+height = 74.0
+
+[node name="player" type="CharacterBody2D"]
+script = ExtResource("1_efrwb")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(36, 24)
+sprite_frames = SubResource("SpriteFrames_6o2m3")
+animation = &"idle"
+frame_progress = 0.794842
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(31, 26)
+shape = SubResource("CapsuleShape2D_2hmo1")
